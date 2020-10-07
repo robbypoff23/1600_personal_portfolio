@@ -4,5 +4,14 @@ body {
 }
 
 nav {
+    display: flex;
+    justify-content: flex-end;
     background-color: red;
+}
+figure img {
+    width: 200px;
+}
+.nav-list {
+    display: flex;
+    list-style-type: none;
 }
