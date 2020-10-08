@@ -3,7 +3,11 @@ body {
     padding: 0;
 }
 
-nav {
+html {
+    scroll-behavior: smooth;
+}
+
+.nav {
     display: flex;
     justify-content: flex-end;
     background-color: red;
@@ -14,4 +18,15 @@ figure img {
 .nav-list {
     display: flex;
     list-style-type: none;
+    margin-right: 2rem;
+}
+
+.nav-list a {
+    display: block;
+    font-size: 2rem;
+    padding: 2rem;
+}
+
+.nav-list a:hover {
+background: #45567d;
 }
