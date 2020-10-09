@@ -15,6 +15,11 @@ html {
 figure img {
     width: 200px;
 }
+
+figure {
+    margin: 0;
+}
+
 .nav-list {
     display: flex;
     list-style-type: none;
